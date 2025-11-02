@@ -1,0 +1,21 @@
+[core]
+	repositoryformatversion = 0
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[user]
+	name = Mcbat
+	email = ps.mcbat@gmail.com
+[remote "origin"]
+	url = https://gitlab.com/ps.mcbat/weddingmanager.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "main"]
+	remote = origin
+	merge = refs/heads/master
+[branch "upload"]
+	remote = origin
+	merge = refs/heads/upload
+[lfs]
+	repositoryformatversion = 0
